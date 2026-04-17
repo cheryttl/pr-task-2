@@ -18,11 +18,9 @@ function App() {
             }`}
             aria-live="polite"
           >
-            {count}
+            {count.toFixed(2)}
           </div>
         </div>
-
-        <p className="text-sm text-white/80 mb-4">Счётчик с Tailwind-стилизацией</p>
 
         <div className="flex gap-2 justify-center">
           <button
